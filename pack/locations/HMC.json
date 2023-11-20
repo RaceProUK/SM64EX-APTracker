@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Hazy Maze Cave",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyBasement"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 330,
+                "y": 690,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Swimming Beast in the Cavern",
+                "item_count": 1
+            },
+            {
+                "name": "Elevate for 8 Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Metal Head Mario Can Move!",
+                "item_count": 1,
+                "access_rules": [
+                    "CapMetal"
+                ]
+            },
+            {
+                "name": "Navigating the Toxic Maze",
+                "item_count": 1
+            },
+            {
+                "name": "A-Maze-Ing Emergency Exit",
+                "item_count": 1
+            },
+            {
+                "name": "Watch for Rolling Rocks",
+                "item_count": 1
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Above Pit",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Past Rolling Rocks",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

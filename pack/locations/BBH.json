@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Big Boo's Haunt",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "$HasEnoughStars|12"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1770,
+                "y": 330,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Go on a Ghost Hunt",
+                "item_count": 1
+            },
+            {
+                "name": "Ride Big Boo's Merry-Go-Round",
+                "item_count": 1
+            },
+            {
+                "name": "Secret of the Haunted Books",
+                "item_count": 1
+            },
+            {
+                "name": "Seek the 8 Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Big Boo's Balcony",
+                "item_count": 1
+            },
+            {
+                "name": "Eye to Eye in the Secret Room",
+                "item_count": 1,
+                "access_rules": [
+                    "CapVanish"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Top of Mansion",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

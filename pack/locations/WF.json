@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Whomp's Fortress",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "$HasEnoughStars|1"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 690,
+                "y": 330,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Chip Off Whomp's Block",
+                "item_count": 1
+            },
+            {
+                "name": "To the Top of the Fortress",
+                "item_count": 1
+            },
+            {
+                "name": "Shoot into the Wild Blue",
+                "item_count": 1
+            },
+            {
+                "name": "Red Coins on the Floating Isle",
+                "item_count": 1
+            },
+            {
+                "name": "Fall onto the Caged Island",
+                "item_count": 1
+            },
+            {
+                "name": "Blast Away the Wall",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonWF"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

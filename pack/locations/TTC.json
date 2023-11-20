@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Tick Tock Clock",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper,$HasEnoughStars|StarDoor50"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1410,
+                "y": 1050,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Roll into the Cage",
+                "item_count": 1
+            },
+            {
+                "name": "The Pit and the Pendulums",
+                "item_count": 1
+            },
+            {
+                "name": "Get a Hand",
+                "item_count": 1
+            },
+            {
+                "name": "Stomp on the Thwomp",
+                "item_count": 1
+            },
+            {
+                "name": "Timed Jumps on Moving Bars",
+                "item_count": 1
+            },
+            {
+                "name": "Stop Time for Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Midway",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "At the Top",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

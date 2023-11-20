@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Tower of the Wing Cap",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "$HasEnoughStars|10"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 330,
+                "y": 1770,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Wing Cap Switch",
+                "chest_unopened_img": "images/SwitchWing.png",
+                "chest_opened_img": "images/SwitchGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "8 Red Coins",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Cavern of the Metal Cap",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyBasement"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 690,
+                "y": 1770,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Metal Cap Switch",
+                "chest_unopened_img": "images/SwitchMetal.png",
+                "chest_opened_img": "images/SwitchGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "8 Red Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CapMetal"
+                ]
+            },
+            {
+                "name": "Near the Exit",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1,
+                "access_rules": [
+                    "CapMetal"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Vanish Cap Under the Moat",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyBasement,MoatDrained"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1050,
+                "y": 1770,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Vanish Cap Switch",
+                "chest_unopened_img": "images/SwitchVanish.png",
+                "chest_opened_img": "images/SwitchGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "8 Red Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CapVanish"
+                ]
+            },
+            {
+                "name": "On a Ledge",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

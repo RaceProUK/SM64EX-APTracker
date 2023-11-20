@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Snowman's Land",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1770,
+                "y": 690,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Snowman's Big Head",
+                "item_count": 1
+            },
+            {
+                "name": "Chill with the Bully",
+                "item_count": 1
+            },
+            {
+                "name": "In the Deep Freeze",
+                "item_count": 1
+            },
+            {
+                "name": "Whirl from the Freezing Pond",
+                "item_count": 1
+            },
+            {
+                "name": "Shell Shreddin' for Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Into the Igloo",
+                "item_count": 1,
+                "access_rules": [
+                    "CapVanish"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CapVanish"
+                ]
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "Near Moneybags",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Inside Igloo",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Tall Tall Mountain",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 690,
+                "y": 1050,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Scale the Mountain",
+                "item_count": 1
+            },
+            {
+                "name": "Mystery of the Monkey Cage",
+                "item_count": 1
+            },
+            {
+                "name": "Scary 'Shrooms, Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Mysterious Mountainside",
+                "item_count": 1
+            },
+            {
+                "name": "Breathtaking View from Bridge",
+                "item_count": 1
+            },
+            {
+                "name": "Blast to the Lonely Mushroom",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonTTM"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "On a Mushroom",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

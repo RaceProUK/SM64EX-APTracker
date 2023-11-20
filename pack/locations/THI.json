@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Tiny Huge Island",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1050,
+                "y": 1050,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pluck the Piranha Flower",
+                "item_count": 1
+            },
+            {
+                "name": "The Tip Top of the Huge Island",
+                "item_count": 1
+            },
+            {
+                "name": "Rematch with Koopa the Quick",
+                "item_count": 1
+            },
+            {
+                "name": "Five Itty Bitty Secrets",
+                "item_count": 1
+            },
+            {
+                "name": "Wiggler's Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Make Wiggler Squirm",
+                "item_count": 1
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "Near Start (Large)",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Near Start (Small)",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Windy Area",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

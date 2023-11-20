@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Dire Dire Docks",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyBasement,$HasEnoughStars|StarDoor30"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1410,
+                "y": 690,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Board Bowser's Sub",
+                "item_count": 1,
+                "hosted_item": "SubDeparted"
+            },
+            {
+                "name": "Chests in the Current",
+                "item_count": 1
+            },
+            {
+                "name": "Pole-Jumping for Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Through the Jet Stream",
+                "item_count": 1,
+                "access_rules": [
+                    "CapMetal"
+                ]
+            },
+            {
+                "name": "The Manta Ray's Reward",
+                "item_count": 1
+            },
+            {
+                "name": "Collect the Caps",
+                "item_count": 1,
+                "access_rules": [
+                    "CapMetal,CapVanish"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            }
+        ]
+    }
+]

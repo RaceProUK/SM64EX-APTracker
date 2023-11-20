@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Wet Dry World",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 330,
+                "y": 1050,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Shocking Arrow Lifts!",
+                "item_count": 1
+            },
+            {
+                "name": "Top o' the Town",
+                "item_count": 1
+            },
+            {
+                "name": "Secrets in the Shallows & Sky",
+                "item_count": 1
+            },
+            {
+                "name": "Express Elevator - Hurry Up!",
+                "item_count": 1
+            },
+            {
+                "name": "Go to Town for Red Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonWDW"
+                ]
+            },
+            {
+                "name": "Quick Race Through Downtown!",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonWDW,CapVanish"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonWDW"
+                ]
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "Downtown",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonWDW"
+                ]
+            }
+        ]
+    }
+]

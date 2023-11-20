@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Rainbow Ride",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper,$HasEnoughStars|StarDoor50"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1770,
+                "y": 1050,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Cruiser Crossing the Rainbow",
+                "item_count": 1
+            },
+            {
+                "name": "The Big House in the Sky",
+                "item_count": 1
+            },
+            {
+                "name": "Coins Amassed in a Maze",
+                "item_count": 1
+            },
+            {
+                "name": "Swingin' in the Breeze",
+                "item_count": 1
+            },
+            {
+                "name": "Tricky Triangles!",
+                "item_count": 1
+            },
+            {
+                "name": "Somewhere Over the Rainbow",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonRR"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "On House in the Sky",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Top of Red Coin Maze",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Under Fly Guy",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

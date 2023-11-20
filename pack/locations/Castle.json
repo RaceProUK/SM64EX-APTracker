@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Basement",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyBasement"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1770,
+                "y": 2130,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "A Gift from Toad",
+                "item_count": 1
+            },
+            {
+                "name": "That Wascally Wabbit!",
+                "item_count": 1,
+                "access_rules": [
+                    "$HasEnoughStars|MIPS1"
+                ]
+            },
+            {
+                "name": "Return of That Wascally Wabbit!",
+                "item_count": 1,
+                "access_rules": [
+                    "$HasEnoughStars|MIPS2"
+                ]
+            },
+            {
+                "name": "Drain the Moat",
+                "hosted_item": "MoatDrained"
+            }
+        ]
+    },
+    {
+        "name": "Second Floor",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1770,
+                "y": 1770,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "A Gift from Toad",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Third Floor",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1770,
+                "y": 1410,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "A Gift from Toad",
+                "item_count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Bob-Omb Battlefield",
+        "type": "toggle",
+        "img": "images/CannonBOB.png",
+        "codes": "CannonBOB"
+    },
+    {
+        "name": "Whomp's Fortress",
+        "type": "toggle",
+        "img": "images/CannonWF.png",
+        "codes": "CannonWF"
+    },
+    {
+        "name": "Jolly Roger Bay",
+        "type": "toggle",
+        "img": "images/CannonJRB.png",
+        "codes": "CannonJRB"
+    },
+    {
+        "name": "Cool Cool Mountain",
+        "type": "toggle",
+        "img": "images/CannonCCM.png",
+        "codes": "CannonCCM"
+    },
+    {
+        "name": "Shifting Sand Land",
+        "type": "toggle",
+        "img": "images/CannonSSL.png",
+        "codes": "CannonSSL"
+    },
+    {
+        "name": "Snowman's Land",
+        "type": "toggle",
+        "img": "images/CannonSL.png",
+        "codes": "CannonSL"
+    },
+    {
+        "name": "Wet Dry World",
+        "type": "toggle",
+        "img": "images/CannonWDW.png",
+        "codes": "CannonWDW"
+    },
+    {
+        "name": "Tall Tall Mountain",
+        "type": "toggle",
+        "img": "images/CannonTTM.png",
+        "codes": "CannonTTM"
+    },
+    {
+        "name": "Tiny Huge Island",
+        "type": "toggle",
+        "img": "images/CannonTHI.png",
+        "codes": "CannonTHI"
+    },
+    {
+        "name": "Rainbow Ride",
+        "type": "toggle",
+        "img": "images/CannonRR.png",
+        "codes": "CannonRR"
+    }
+]

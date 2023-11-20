@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Wing Cap",
+        "type": "toggle",
+        "img": "images/CapWing.png",
+        "codes": "CapWing"
+    },
+    {
+        "name": "Metal Cap",
+        "type": "toggle",
+        "img": "images/CapMetal.png",
+        "codes": "CapMetal"
+    },
+    {
+        "name": "Vanish Cap",
+        "type": "toggle",
+        "img": "images/CapVanish.png",
+        "codes": "CapVanish"
+    }
+]

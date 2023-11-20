@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Bob-Omb Battlefield",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 330,
+                "y": 330,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Big Bob-Omb on the Summit",
+                "item_count": 1
+            },
+            {
+                "name": "Footrace with Koopa the Quick",
+                "item_count": 1
+            },
+            {
+                "name": "Shoot to the Island in the Sky",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonBOB"
+                ]
+            },
+            {
+                "name": "Find the 8 Red Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonBOB"
+                ]
+            },
+            {
+                "name": "Mario Wings to the Sky",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonBOB,CapWing"
+                ]
+            },
+            {
+                "name": "Behind Chain Chomp's Gate",
+                "item_count": 1
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonBOB,CapWing"
+                ]
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

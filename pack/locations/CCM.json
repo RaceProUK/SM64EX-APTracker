@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Cool Cool Mountain",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "$HasEnoughStars|3"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1410,
+                "y": 330,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Slip Slidin' Away",
+                "item_count": 1
+            },
+            {
+                "name": "Li'l Penguin Lost",
+                "item_count": 1
+            },
+            {
+                "name": "Big Penguin Race",
+                "item_count": 1
+            },
+            {
+                "name": "Frosty Slide for 8 Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Snowman's Lost His Head",
+                "item_count": 1
+            },
+            {
+                "name": "Wall Kicks Will Work",
+                "item_count": 1,
+                "access_rules": [
+                    "CannonCCM"
+                ]
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "Ice Pillar",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Near Snowman",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Secret Slide",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

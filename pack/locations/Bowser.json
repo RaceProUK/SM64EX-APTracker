@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Bowser in the Dark World",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "$HasEnoughStars|StarDoor08"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 330,
+                "y": 2130,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "8 Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Basement Key",
+                "chest_unopened_img": "images/Key.png",
+                "chest_opened_img": "images/KeyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "Near Goombas",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "On Tower",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Bowser in the Fire Sea",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyBasement,$HasEnoughStars|StarDoor30,SubDeparted"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 690,
+                "y": 2130,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "8 Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Upstairs Key",
+                "chest_unopened_img": "images/Key.png",
+                "chest_opened_img": "images/KeyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "Near Poles",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Swaying Stairs",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Bowser in the Sky",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyUpper,$HasEnoughStars|StarDoor70"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1050,
+                "y": 2130,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "8 Red Coins",
+                "item_count": 1
+            },
+            {
+                "name": "So Long, King Bowser!",
+                "hosted_item": "GrandStar"
+            },
+            {
+                "name": "Above the Amp",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Shifting Sand Land",
+        "chest_unopened_img": "images/Star.png",
+        "chest_opened_img": "images/StarGrey.png",
+        "access_rules": [
+            "KeyBasement"
+        ],
+        "map_locations": [
+            {
+                "map": "Courses",
+                "x": 1050,
+                "y": 690,
+                "size": 48,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "In the Talons of the Big Bird",
+                "item_count": 1
+            },
+            {
+                "name": "Shining Atop the Pyramid",
+                "item_count": 1
+            },
+            {
+                "name": "Inside the Ancient Pyramid",
+                "item_count": 1
+            },
+            {
+                "name": "Stand Tall on the Four Pillars",
+                "item_count": 1,
+                "access_rules": [
+                    "CapWing,CannonSSL"
+                ]
+            },
+            {
+                "name": "Free Flying for 8 Red Coins",
+                "item_count": 1,
+                "access_rules": [
+                    "CapWing,CannonSSL"
+                ]
+            },
+            {
+                "name": "Pyramid Puzzle",
+                "item_count": 1
+            },
+            {
+                "name": "100 Coins",
+                "item_count": 1
+            },
+            {
+                "name": "Bob-Omb Buddy",
+                "chest_unopened_img": "images/BobOmbBuddy.png",
+                "chest_opened_img": "images/BobOmbBuddyGrey.png",
+                "item_count": 1
+            },
+            {
+                "name": "Outside the Pyramid",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Back Wall in the Pyramid",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            },
+            {
+                "name": "Left Path in the Pyramid",
+                "chest_unopened_img": "images/1UpBox.png",
+                "chest_opened_img": "images/EmptyBox.png",
+                "item_count": 1
+            }
+        ]
+    }
+]
