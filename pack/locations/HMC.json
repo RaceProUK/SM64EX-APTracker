@@ -28,7 +28,7 @@
                 "name": "Metal Head Mario Can Move!",
                 "item_count": 1,
                 "access_rules": [
-                    "CapMetal"
+                    "[CapMetal]"
                 ]
             },
             {

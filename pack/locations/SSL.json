@@ -32,14 +32,14 @@
                 "name": "Stand Tall on the Four Pillars",
                 "item_count": 1,
                 "access_rules": [
-                    "CapWing,CannonSSL"
+                    "[CapWing],[CannonSSL]"
                 ]
             },
             {
                 "name": "Free Flying for 8 Red Coins",
                 "item_count": 1,
                 "access_rules": [
-                    "CapWing,CannonSSL"
+                    "[CapWing],[CannonSSL]"
                 ]
             },
             {

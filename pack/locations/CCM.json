@@ -40,7 +40,7 @@
                 "name": "Wall Kicks Will Work",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonCCM"
+                    "[CannonCCM]"
                 ]
             },
             {

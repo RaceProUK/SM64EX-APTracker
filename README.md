@@ -12,6 +12,5 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 ## Known Issues
 
-- Out-of-logic checks currently show as unavailable
 - Draining the moat cannot be auto-tracked as the Archipelago server doesn't send a relevant notification
 - Entrance Randomiser isn't supported… yet

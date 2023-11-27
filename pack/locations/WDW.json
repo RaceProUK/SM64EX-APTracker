@@ -36,21 +36,21 @@
                 "name": "Go to Town for Red Coins",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonWDW"
+                    "[CannonWDW]"
                 ]
             },
             {
                 "name": "Quick Race Through Downtown!",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonWDW,CapVanish"
+                    "[CannonWDW],CapVanish"
                 ]
             },
             {
                 "name": "100 Coins",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonWDW"
+                    "[CannonWDW]"
                 ]
             },
             {

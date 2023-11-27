@@ -55,7 +55,7 @@
                 "name": "8 Red Coins",
                 "item_count": 1,
                 "access_rules": [
-                    "CapMetal"
+                    "[CapMetal]"
                 ]
             },
             {
@@ -96,7 +96,7 @@
                 "name": "8 Red Coins",
                 "item_count": 1,
                 "access_rules": [
-                    "CapVanish"
+                    "[CapVanish]"
                 ]
             },
             {

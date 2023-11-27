@@ -26,7 +26,10 @@
             },
             {
                 "name": "Shoot into the Wild Blue",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "[CannonWF]"
+                ]
             },
             {
                 "name": "Red Coins on the Floating Isle",
@@ -40,7 +43,7 @@
                 "name": "Blast Away the Wall",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonWF"
+                    "[CannonWF]"
                 ]
             },
             {

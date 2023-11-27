@@ -33,7 +33,7 @@
                 "name": "Through the Jet Stream",
                 "item_count": 1,
                 "access_rules": [
-                    "CapMetal"
+                    "[CapMetal]"
                 ]
             },
             {

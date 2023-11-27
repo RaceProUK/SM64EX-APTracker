@@ -36,14 +36,14 @@
                 "name": "Blast to the Stone Pillar",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonJRB"
+                    "[CannonJRB]"
                 ]
             },
             {
                 "name": "Through the Jet Stream",
                 "item_count": 1,
                 "access_rules": [
-                    "CapMetal"
+                    "[CapMetal]"
                 ]
             },
             {
