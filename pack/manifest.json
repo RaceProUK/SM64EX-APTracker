@@ -3,7 +3,7 @@
     "game_name": "Super Mario 64",
     "author": "RaceProUK",
     "package_uid": "sm64ex_rando_raceprouk",
-    "package_version": "0.2.0",
+    "package_version": "0.3.0",
     "platform": "PC",
     "variants": {
         "ap": {
@@ -15,5 +15,5 @@
     },
     "min_poptracker_version": "0.25.4",
     "target_poptracker_version": "0.25.4",
-    "versions_url": "https://raw.githubusercontent.com/RaceProUK/SM64EX-APTracker/versions.json"
+    "versions_url": "https://raw.githubusercontent.com/RaceProUK/SM64EX-APTracker/main/versions.json"
 }

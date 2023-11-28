@@ -7,6 +7,7 @@ function Reset(slotData)
     CurrentIndex = -1
 
     --Manually Tracked Items
+    EntranceMapper:Reset()
     Tracker:FindObjectForCode("GrandStar").Active = false
     Tracker:FindObjectForCode("MoatDrained").Active = false
     Tracker:FindObjectForCode("SubDeparted").Active = false
@@ -50,6 +51,7 @@ function Reset(slotData)
     if slotData["AreaRando"] then
         local setting = Tracker:FindObjectForCode("EntrancesRandomised")
         setting.Active = slotData["AreaRando"] ~= 0
+        EntranceMapper:Fill(slotData["AreaRando"])
     end
     if slotData["DeathLink"] then
         local setting = Tracker:FindObjectForCode("DeathLink")

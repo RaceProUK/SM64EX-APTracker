@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/Star.png",
         "chest_opened_img": "images/StarGrey.png",
         "access_rules": [
-            "$HasEnoughStars|StarDoor08"
+            "$CanAccess|BitDW"
         ],
         "map_locations": [
             {
@@ -45,7 +45,7 @@
         "chest_unopened_img": "images/Star.png",
         "chest_opened_img": "images/StarGrey.png",
         "access_rules": [
-            "KeyBasement,$HasEnoughStars|StarDoor30,SubDeparted"
+            "$CanAccess|BitFS"
         ],
         "map_locations": [
             {

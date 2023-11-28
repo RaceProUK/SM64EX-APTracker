@@ -4,7 +4,8 @@
         "chest_unopened_img": "images/Star.png",
         "chest_opened_img": "images/StarGrey.png",
         "access_rules": [
-            "KeyUpper"
+            "$CanAccess|THI Huge",
+            "$CanAccess|THI Tiny"
         ],
         "map_locations": [
             {

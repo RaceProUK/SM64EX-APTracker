@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/Star.png",
         "chest_opened_img": "images/StarGrey.png",
         "access_rules": [
-            "$HasEnoughStars|3"
+            "$CanAccess|CCM"
         ],
         "map_locations": [
             {
