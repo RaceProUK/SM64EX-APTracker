@@ -49,9 +49,9 @@ function Reset(slotData)
         setting.CurrentStage = slotData["CompletionType"]
     end
     if slotData["AreaRando"] then
+        EntranceMapper:Fill(slotData["AreaRando"])
         local setting = Tracker:FindObjectForCode("EntrancesRandomised")
         setting.Active = slotData["AreaRando"] ~= 0
-        EntranceMapper:Fill(slotData["AreaRando"])
     end
     if slotData["DeathLink"] then
         local setting = Tracker:FindObjectForCode("DeathLink")
