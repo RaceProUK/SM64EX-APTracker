@@ -36,9 +36,11 @@ EntranceMapper["EntranceIDMap"] = {
 
 function EntranceMapper:Fill(areaMap)
     for key, value in pairs(areaMap) do
-        local course = EntranceMapper["EntranceIDMap"][key]
-        local entrance = EntranceMapper["EntranceIDMap"][tostring(value)]
-        EntranceMapper[entrance] = course
+        local entrance = EntranceMapper["EntranceIDMap"][key]
+        local course = EntranceMapper["EntranceIDMap"][tostring(value)]
+        --AP uses entrance => course
+        --But we need course => entrance
+        EntranceMapper[course] = entrance
     end
 end
 
