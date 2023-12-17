@@ -46,7 +46,11 @@
                         },
                         {
                             "type": "group",
-                            "header": "Entrances"
+                            "header": "Entrances",
+                            "content": {
+                                "type": "layout",
+                                "key": "Entrances"
+                            }
                         }
                     ]
                 }

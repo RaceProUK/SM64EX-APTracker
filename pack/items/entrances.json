@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Leads To",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "LeadsTo",
+        "stages": [
+            {
+                "img": "images/RightArrow.png"
+            }
+        ]
+    },
+    {
+        "name": "Bob-Omb Battlefield",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceBOB",
+        "stages": [
+            {
+                "img": "images/LevelBOB.png"
+            }
+        ]
+    },
+    {
+        "name": "Whomp's Fortress",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceWF",
+        "stages": [
+            {
+                "img": "images/LevelWF.png"
+            }
+        ]
+    },
+    {
+        "name": "Jolly Roger Bay",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceJRB",
+        "stages": [
+            {
+                "img": "images/LevelJRB.png"
+            }
+        ]
+    },
+    {
+        "name": "Cool Cool Mountain",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceCCM",
+        "stages": [
+            {
+                "img": "images/LevelCCM.png"
+            }
+        ]
+    },
+    {
+        "name": "Big Boo's Haunt",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceBBH",
+        "stages": [
+            {
+                "img": "images/LevelBBH.png"
+            }
+        ]
+    },
+    {
+        "name": "Hazy Maze Cave",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceHMC",
+        "stages": [
+            {
+                "img": "images/LevelHMC.png"
+            }
+        ]
+    },
+    {
+        "name": "Lethal Lava Land",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceLLL",
+        "stages": [
+            {
+                "img": "images/LevelLLL.png"
+            }
+        ]
+    },
+    {
+        "name": "Shifting Sand Land",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceSSL",
+        "stages": [
+            {
+                "img": "images/LevelSSL.png"
+            }
+        ]
+    },
+    {
+        "name": "Dire Dire Docks",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceDDD",
+        "stages": [
+            {
+                "img": "images/LevelDDD.png"
+            }
+        ]
+    },
+    {
+        "name": "Snowman's Land",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceSL",
+        "stages": [
+            {
+                "img": "images/LevelSL.png"
+            }
+        ]
+    },
+    {
+        "name": "Wet Dry World",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceWDW",
+        "stages": [
+            {
+                "img": "images/LevelWDW.png"
+            }
+        ]
+    },
+    {
+        "name": "Tall Tall Mountain",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceTTM",
+        "stages": [
+            {
+                "img": "images/LevelTTM.png"
+            }
+        ]
+    },
+    {
+        "name": "Tiny Huge Island (Huge)",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceTHIh",
+        "stages": [
+            {
+                "img": "images/LevelTHIh.png"
+            }
+        ]
+    },
+    {
+        "name": "Tiny Huge Island (Tiny)",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceTHIt",
+        "stages": [
+            {
+                "img": "images/LevelTHIt.png"
+            }
+        ]
+    },
+    {
+        "name": "Tick Tock Clock",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceTTC",
+        "stages": [
+            {
+                "img": "images/LevelTTC.png"
+            }
+        ]
+    },
+    {
+        "name": "Rainbow Ride",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceRR",
+        "stages": [
+            {
+                "img": "images/LevelRR.png"
+            }
+        ]
+    },
+    {
+        "name": "Princess's Secret Slide",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntrancePSS",
+        "stages": [
+            {
+                "img": "images/LevelPSS.png"
+            }
+        ]
+    },
+    {
+        "name": "Secret Aquarium",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceSA",
+        "stages": [
+            {
+                "img": "images/LevelSA.png"
+            }
+        ]
+    },
+    {
+        "name": "Wing Mario Over the Rainbow",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceWMotR",
+        "stages": [
+            {
+                "img": "images/LevelWMotR.png"
+            }
+        ]
+    },
+    {
+        "name": "Tower of the Wing Cap",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceTotWC",
+        "stages": [
+            {
+                "img": "images/LevelTotWC.png"
+            }
+        ]
+    },
+    {
+        "name": "Cavern of the Metal Cap",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceCotMC",
+        "stages": [
+            {
+                "img": "images/LevelCotMC.png"
+            }
+        ]
+    },
+    {
+        "name": "Vanish Cap under the Moat",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceVCutM",
+        "stages": [
+            {
+                "img": "images/LevelVCutM.png"
+            }
+        ]
+    },
+    {
+        "name": "Bowser in the Dark World",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceBitDW",
+        "stages": [
+            {
+                "img": "images/LevelBitDW.png"
+            }
+        ]
+    },
+    {
+        "name": "Bowser in the Fire Sea",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "EntranceBitFS",
+        "stages": [
+            {
+                "img": "images/LevelBitFS.png"
+            }
+        ]
+    }
+]

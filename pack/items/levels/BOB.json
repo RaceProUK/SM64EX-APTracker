@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Bob-Omb Battlefield",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "codes": "LevelBOB",
+        "stages": [
+            {
+                "img": "images/Level___.png"
+            },
+            {
+                "img": "images/LevelBOB.png"
+            },
+            {
+                "img": "images/LevelWF.png"
+            },
+            {
+                "img": "images/LevelJRB.png"
+            },
+            {
+                "img": "images/LevelCCM.png"
+            },
+            {
+                "img": "images/LevelBBH.png"
+            },
+            {
+                "img": "images/LevelHMC.png"
+            },
+            {
+                "img": "images/LevelLLL.png"
+            },
+            {
+                "img": "images/LevelSSL.png"
+            },
+            {
+                "img": "images/LevelDDD.png"
+            },
+            {
+                "img": "images/LevelSL.png"
+            },
+            {
+                "img": "images/LevelWDW.png"
+            },
+            {
+                "img": "images/LevelTTM.png"
+            },
+            {
+                "img": "images/LevelTHIh.png"
+            },
+            {
+                "img": "images/LevelTHIt.png"
+            },
+            {
+                "img": "images/LevelTTC.png"
+            },
+            {
+                "img": "images/LevelRR.png"
+            },
+            {
+                "img": "images/LevelPSS.png"
+            },
+            {
+                "img": "images/LevelSA.png"
+            },
+            {
+                "img": "images/LevelWMotR.png"
+            },
+            {
+                "img": "images/LevelTotWC.png"
+            },
+            {
+                "img": "images/LevelCotMC.png"
+            },
+            {
+                "img": "images/LevelVCutM.png"
+            },
+            {
+                "img": "images/LevelBitDW.png"
+            },
+            {
+                "img": "images/LevelBitFS.png"
+            }
+        ]
+    }
+]
