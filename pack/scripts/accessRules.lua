@@ -11,8 +11,8 @@ AccessRules = {
     ["SL"] = function() return HasItem("KeyUpper") end,
     ["WDW"] = function() return HasItem("KeyUpper") end,
     ["TTM"] = function() return HasItem("KeyUpper") end,
-    ["THI Huge"] = function() return HasItem("KeyUpper") end,
-    ["THI Tiny"] = function() return HasItem("KeyUpper") end,
+    ["THIHuge"] = function() return HasItem("KeyUpper") end,
+    ["THITiny"] = function() return HasItem("KeyUpper") end,
     ["TTC"] = function() return HasItem("KeyUpper") and HasEnoughStars("StarDoor50") end,
     ["RR"] = function() return HasItem("KeyUpper") and HasEnoughStars("StarDoor50") end,
 

@@ -1,11 +1,11 @@
 [
     {
-        "name": "Bob-Omb Battlefield",
+        "name": "Bowser in the Dark World",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
         "initial_stage_idx": 0,
-        "codes": "LevelBOB",
+        "codes": "LevelBitDW",
         "stages": [
             {
                 "name": "???",

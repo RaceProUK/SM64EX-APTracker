@@ -1,11 +1,11 @@
 [
     {
-        "name": "Bob-Omb Battlefield",
+        "name": "Cavern of the Metal Cap",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
         "initial_stage_idx": 0,
-        "codes": "LevelBOB",
+        "codes": "LevelCotMC",
         "stages": [
             {
                 "name": "???",

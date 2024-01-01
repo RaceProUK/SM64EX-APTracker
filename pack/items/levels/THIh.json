@@ -1,11 +1,11 @@
 [
     {
-        "name": "Bob-Omb Battlefield",
+        "name": "Tiny Huge Island (Huge)",
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
         "initial_stage_idx": 0,
-        "codes": "LevelBOB",
+        "codes": "LevelTHIHuge",
         "stages": [
             {
                 "name": "???",

@@ -174,7 +174,7 @@
         "loop": true,
         "allow_disabled": false,
         "initial_stage_idx": 0,
-        "codes": "EntranceTHIh",
+        "codes": "EntranceTHIHuge",
         "stages": [
             {
                 "img": "images/LevelTHIh.png"
@@ -187,7 +187,7 @@
         "loop": true,
         "allow_disabled": false,
         "initial_stage_idx": 0,
-        "codes": "EntranceTHIt",
+        "codes": "EntranceTHITiny",
         "stages": [
             {
                 "img": "images/LevelTHIt.png"

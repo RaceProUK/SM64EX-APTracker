@@ -297,7 +297,7 @@
                         "content": [
                             {
                                 "type": "item",
-                                "item": "EntranceTHIh",
+                                "item": "EntranceTHIHuge",
                                 "margin": "4,4,4,4"
                             },
                             {
@@ -307,7 +307,7 @@
                             },
                             {
                                 "type": "item",
-                                "item": "LevelTHIh",
+                                "item": "LevelTHIHuge",
                                 "margin": "4,4,4,4"
                             }
                         ]
@@ -320,7 +320,7 @@
                         "content": [
                             {
                                 "type": "item",
-                                "item": "EntranceTHIt",
+                                "item": "EntranceTHITiny",
                                 "margin": "4,4,4,4"
                             },
                             {
@@ -330,7 +330,7 @@
                             },
                             {
                                 "type": "item",
-                                "item": "LevelTHIt",
+                                "item": "LevelTHITiny",
                                 "margin": "4,4,4,4"
                             }
                         ]
