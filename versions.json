@@ -1,11 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "0.2.0",
-            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.2.0/sm64ex_rando_raceprouk.zip",
-            "sha256": "03b5faf73c13377565c0402330129754a1b121bc20452d2e17e5545f2131698d",
+            "package_version": "0.3.0",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.3.0/sm64ex_rando_raceprouk.zip",
+            "sha256": "4818a6704371e06b82081816a8768554a613b7e3e7245c1d59c1e7ead10c802b",
             "changelog": [
-                "Initial version"
+                "Entrance Randomiser now supported"
             ]
         }
     ]
