@@ -1,0 +1,25 @@
+{
+    "broadcast_tracker": {
+        "type": "dock",
+        "background": "#212121",
+        "content": [
+            {
+                "type": "group",
+                "header": "Items",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "Items"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Settings",
+                "content": {
+                    "type": "layout",
+                    "key": "Settings"
+                }
+            }
+        ]
+    }
+}

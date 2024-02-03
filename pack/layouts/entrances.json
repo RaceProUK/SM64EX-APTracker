@@ -6,7 +6,6 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "h_alignment": "left",
                 "margin": "0,0,0,16",
                 "content": [
                     {
@@ -104,7 +103,6 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "h_alignment": "left",
                 "margin": "0,0,0,16",
                 "content": [
                     {
@@ -202,7 +200,6 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "h_alignment": "left",
                 "margin": "0,0,0,16",
                 "content": [
                     {
@@ -336,7 +333,6 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "h_alignment": "left",
                 "margin": "0,0,0,16",
                 "content": [
                     {
@@ -398,7 +394,6 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "h_alignment": "left",
                 "margin": "0,0,0,16",
                 "content": [
                     {
@@ -460,7 +455,6 @@
             {
                 "type": "array",
                 "orientation": "horizontal",
-                "h_alignment": "left",
                 "margin": "0,0,0,16",
                 "content": [
                     {
