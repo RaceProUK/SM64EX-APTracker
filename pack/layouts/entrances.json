@@ -1,575 +1,503 @@
 {
     "Entrances": {
         "type": "array",
-        "orientation": "horizontal",
+        "orientation": "vertical",
         "content": [
             {
                 "type": "array",
-                "orientation": "vertical",
+                "orientation": "horizontal",
+                "h_alignment": "left",
+                "margin": "0,0,0,16",
                 "content": [
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntranceBOB",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceBOB",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelBOB",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LeadsTo",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceWF",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelWF",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LevelBOB",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceJRB",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelJRB",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntranceWF",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceCCM",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelCCM",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LeadsTo",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceBBH",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelBBH",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LevelWF",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceHMC",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelHMC",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntranceJRB",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceLLL",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelLLL",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LeadsTo",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceSSL",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelSSL",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelJRB",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceCCM",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelCCM",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceBBH",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelBBH",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
                     }
                 ]
             },
             {
                 "type": "array",
-                "orientation": "vertical",
+                "orientation": "horizontal",
+                "h_alignment": "left",
+                "margin": "0,0,0,16",
                 "content": [
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntranceHMC",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceDDD",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelDDD",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelHMC",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceLLL",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelLLL",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceSSL",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelSSL",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceDDD",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelDDD",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceSL",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelSL",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "h_alignment": "left",
+                "margin": "0,0,0,16",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "EntranceWDW",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelWDW",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceTTM",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelTTM",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
                     },
                     {
                         "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
-                        "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceSL",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelSL",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
-                        "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceWDW",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelWDW",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
-                        "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceTTM",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelTTM",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
-                        "margin": "4,4,4,4",
+                        "orientation": "vertical",
                         "content": [
                             {
                                 "type": "item",
                                 "item": "EntranceTHIHuge",
-                                "margin": "4,4,4,4"
+                                "margin": "4,4,4,4",
+                                "item_height": 15
                             },
                             {
                                 "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelTHIHuge",
-                                "margin": "4,4,4,4"
+                                "item": "EntranceTHITiny",
+                                "margin": "4,4,4,4",
+                                "item_height": 15
                             }
                         ]
                     },
                     {
                         "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
-                        "margin": "4,4,4,4",
+                        "orientation": "vertical",
                         "content": [
                             {
                                 "type": "item",
-                                "item": "EntranceTHITiny",
-                                "margin": "4,4,4,4"
+                                "item": "LeadsTo",
+                                "margin": "4,4,4,4",
+                                "item_height": 15
                             },
                             {
                                 "type": "item",
                                 "item": "LeadsTo",
-                                "margin": "4,4,4,4"
+                                "margin": "4,4,4,4",
+                                "item_height": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "LevelTHIHuge",
+                                "margin": "4,4,4,4",
+                                "item_height": 15
                             },
                             {
                                 "type": "item",
                                 "item": "LevelTHITiny",
-                                "margin": "4,4,4,4"
+                                "margin": "4,4,4,4",
+                                "item_height": 15
                             }
                         ]
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntranceTTC",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceTTC",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelTTC",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LeadsTo",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceRR",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelRR",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelTTC",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceRR",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelRR",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
                     }
                 ]
             },
             {
                 "type": "array",
-                "orientation": "vertical",
+                "orientation": "horizontal",
+                "h_alignment": "left",
+                "margin": "0,0,0,16",
                 "content": [
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntrancePSS",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntrancePSS",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelPSS",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LeadsTo",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceSA",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelSA",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LevelPSS",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceWMotR",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelWMotR",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntranceSA",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceTotWC",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelTotWC",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LeadsTo",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceCotMC",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelCotMC",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LevelSA",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceVCutM",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelVCutM",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "EntranceWMotR",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceBitDW",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelBitDW",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
                     },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "h_alignment": "left",
+                        "type": "item",
+                        "item": "LeadsTo",
                         "margin": "4,4,4,4",
-                        "content": [
-                            {
-                                "type": "item",
-                                "item": "EntranceBitFS",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LeadsTo",
-                                "margin": "4,4,4,4"
-                            },
-                            {
-                                "type": "item",
-                                "item": "LevelBitFS",
-                                "margin": "4,4,4,4"
-                            }
-                        ]
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelWMotR",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "h_alignment": "left",
+                "margin": "0,0,0,16",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "EntranceTotWC",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelTotWC",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceCotMC",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelCotMC",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceVCutM",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelVCutM",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "h_alignment": "left",
+                "margin": "0,0,0,16",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "EntranceBitDW",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelBitDW",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "EntranceBitFS",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LeadsTo",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
+                    },
+                    {
+                        "type": "item",
+                        "item": "LevelBitFS",
+                        "margin": "4,4,4,4",
+                        "item_height": 15
                     }
                 ]
             }
