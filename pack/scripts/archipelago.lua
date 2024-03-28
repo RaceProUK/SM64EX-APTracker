@@ -13,6 +13,19 @@ function Reset(slotData)
     Tracker:FindObjectForCode("SubDeparted").Active = false
     Tracker:FindObjectForCode("Goal").CurrentStage = 0
 
+    --Move Rando Items
+    Tracker:FindObjectForCode("DoubleJump").Active = true
+    Tracker:FindObjectForCode("TripleJump").Active = true
+    Tracker:FindObjectForCode("LongJump").Active = true
+    Tracker:FindObjectForCode("BackFlip").Active = true
+    Tracker:FindObjectForCode("SideFlip").Active = true
+    Tracker:FindObjectForCode("WallKick").Active = true
+    Tracker:FindObjectForCode("Dive").Active = true
+    Tracker:FindObjectForCode("GroundPound").Active = true
+    Tracker:FindObjectForCode("Kick").Active = true
+    Tracker:FindObjectForCode("Climb").Active = true
+    Tracker:FindObjectForCode("LedgeGrab").Active = true
+    
     --Auto-tracked Items
     for _, value in pairs(ItemMap) do
         local itemCode = value[1]
@@ -52,6 +65,21 @@ function Reset(slotData)
         EntranceMapper:Fill(slotData["AreaRando"])
         local setting = Tracker:FindObjectForCode("EntrancesRandomised")
         setting.Active = slotData["AreaRando"] ~= 0
+    end
+    if slotData["MoveRandoVec"] then
+        local setting = Tracker:FindObjectForCode("MovesRandomised")
+        setting.Active = slotData["MoveRandoVec"] ~= 0
+        Tracker:FindObjectForCode("DoubleJump").Active = true --Double Jump is *always* available
+        Tracker:FindObjectForCode("TripleJump").Active = !setting.Active
+        Tracker:FindObjectForCode("LongJump").Active = !setting.Active
+        Tracker:FindObjectForCode("BackFlip").Active = !setting.Active
+        Tracker:FindObjectForCode("SideFlip").Active = !setting.Active
+        Tracker:FindObjectForCode("WallKick").Active = !setting.Active
+        Tracker:FindObjectForCode("Dive").Active = !setting.Active
+        Tracker:FindObjectForCode("GroundPound").Active = !setting.Active
+        Tracker:FindObjectForCode("Kick").Active = !setting.Active
+        Tracker:FindObjectForCode("Climb").Active = !setting.Active
+        Tracker:FindObjectForCode("LedgeGrab").Active = !setting.Active
     end
     if slotData["DeathLink"] then
         local setting = Tracker:FindObjectForCode("DeathLink")
