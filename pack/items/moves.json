@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Double Jump",
+        "type": "toggle",
+        "img": "images/MoveDoubleJump.png",
+        "codes": "DoubleJump"
+    },
+    {
+        "name": "Triple Jump",
+        "type": "toggle",
+        "img": "images/MoveTripleJump.png",
+        "codes": "TripleJump"
+    },
+    {
+        "name": "Long Jump",
+        "type": "toggle",
+        "img": "images/MoveLongJump.png",
+        "codes": "LongJump"
+    },
+    {
+        "name": "Back Flip",
+        "type": "toggle",
+        "img": "images/MoveBackFlip.png",
+        "codes": "BackFlip"
+    },
+    {
+        "name": "Side Flip",
+        "type": "toggle",
+        "img": "images/MoveSideFlip.png",
+        "codes": "SideFlip"
+    },
+    {
+        "name": "Wall Kick",
+        "type": "toggle",
+        "img": "images/MoveWallKick.png",
+        "codes": "WallKick"
+    },
+    {
+        "name": "Dive",
+        "type": "toggle",
+        "img": "images/MoveDive.png",
+        "codes": "Dive"
+    },
+    {
+        "name": "Ground Pound",
+        "type": "toggle",
+        "img": "images/MoveGroundPound.png",
+        "codes": "GroundPound"
+    },
+    {
+        "name": "Kick",
+        "type": "toggle",
+        "img": "images/MoveKick.png",
+        "codes": "Kick"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",
+        "img": "images/MoveClimb.png",
+        "codes": "Climb"
+    },
+    {
+        "name": "Ledge Grab",
+        "type": "toggle",
+        "img": "images/MoveLedgeGrab.png",
+        "codes": "LedgeGrab"
+    }
+]
