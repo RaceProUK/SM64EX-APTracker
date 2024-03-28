@@ -22,6 +22,7 @@ Tracker:AddMaps("maps/courses.json")
 Tracker:AddItems("items/caps.json")
 Tracker:AddItems("items/cannons.json")
 Tracker:AddItems("items/keys.json")
+Tracker:AddItems("items/moves.json")
 Tracker:AddItems("items/stars.json")
 Tracker:AddItems("items/settings.json")
 
