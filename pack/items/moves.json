@@ -3,66 +3,77 @@
         "name": "Double Jump",
         "type": "toggle",
         "img": "images/MoveDoubleJump.png",
-        "codes": "DoubleJump"
+        "codes": "DoubleJump",
+        "initial_active_state": true
     },
     {
         "name": "Triple Jump",
         "type": "toggle",
         "img": "images/MoveTripleJump.png",
-        "codes": "TripleJump"
+        "codes": "TripleJump",
+        "initial_active_state": true
     },
     {
         "name": "Long Jump",
         "type": "toggle",
         "img": "images/MoveLongJump.png",
-        "codes": "LongJump"
+        "codes": "LongJump",
+        "initial_active_state": true
     },
     {
         "name": "Back Flip",
         "type": "toggle",
         "img": "images/MoveBackFlip.png",
-        "codes": "BackFlip"
+        "codes": "BackFlip",
+        "initial_active_state": true
     },
     {
         "name": "Side Flip",
         "type": "toggle",
         "img": "images/MoveSideFlip.png",
-        "codes": "SideFlip"
+        "codes": "SideFlip",
+        "initial_active_state": true
     },
     {
         "name": "Wall Kick",
         "type": "toggle",
         "img": "images/MoveWallKick.png",
-        "codes": "WallKick"
+        "codes": "WallKick",
+        "initial_active_state": true
     },
     {
         "name": "Dive",
         "type": "toggle",
         "img": "images/MoveDive.png",
-        "codes": "Dive"
+        "codes": "Dive",
+        "initial_active_state": true
     },
     {
         "name": "Ground Pound",
         "type": "toggle",
         "img": "images/MoveGroundPound.png",
-        "codes": "GroundPound"
+        "codes": "GroundPound",
+        "initial_active_state": true
     },
     {
         "name": "Kick",
         "type": "toggle",
         "img": "images/MoveKick.png",
-        "codes": "Kick"
+        "codes": "Kick",
+        "initial_active_state": true
     },
     {
         "name": "Climb",
         "type": "toggle",
         "img": "images/MoveClimb.png",
-        "codes": "Climb"
+        "codes": "Climb",
+        "initial_active_state": true
     },
     {
         "name": "Ledge Grab",
         "type": "toggle",
         "img": "images/MoveLedgeGrab.png",
-        "codes": "LedgeGrab"
+        "codes": "LedgeGrab",
+        "initial_active_state": true
     }
 ]

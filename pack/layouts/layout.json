@@ -6,6 +6,15 @@
             "type": "dock",
             "content": [
                 {
+                    "type": "group",
+                    "header": "Moves",
+                    "dock": "bottom",
+                    "content": {
+                        "type": "layout",
+                        "key": "Moves"
+                    }
+                },
+                {
                     "type": "dock",
                     "dock": "left",
                     "v_alignment": "stretch",
@@ -47,6 +56,7 @@
                         {
                             "type": "group",
                             "header": "Entrances",
+                            "dock": "bottom",
                             "content": {
                                 "type": "layout",
                                 "key": "Entrances"

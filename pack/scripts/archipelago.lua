@@ -12,19 +12,6 @@ function Reset(slotData)
     Tracker:FindObjectForCode("MoatDrained").Active = false
     Tracker:FindObjectForCode("SubDeparted").Active = false
     Tracker:FindObjectForCode("Goal").CurrentStage = 0
-
-    --Move Rando Items
-    Tracker:FindObjectForCode("DoubleJump").Active = true
-    Tracker:FindObjectForCode("TripleJump").Active = true
-    Tracker:FindObjectForCode("LongJump").Active = true
-    Tracker:FindObjectForCode("BackFlip").Active = true
-    Tracker:FindObjectForCode("SideFlip").Active = true
-    Tracker:FindObjectForCode("WallKick").Active = true
-    Tracker:FindObjectForCode("Dive").Active = true
-    Tracker:FindObjectForCode("GroundPound").Active = true
-    Tracker:FindObjectForCode("Kick").Active = true
-    Tracker:FindObjectForCode("Climb").Active = true
-    Tracker:FindObjectForCode("LedgeGrab").Active = true
     
     --Auto-tracked Items
     for _, value in pairs(ItemMap) do
@@ -35,6 +22,8 @@ function Reset(slotData)
             if item then
                 if itemType == "toggle" then
                     item.Active = false
+                elseif itemType == "move" then
+                    item.Active = true
                 elseif itemType == "consumable" then
                     item.AcquiredCount = 0
                 end
