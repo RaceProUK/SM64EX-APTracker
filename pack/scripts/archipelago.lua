@@ -58,17 +58,17 @@ function Reset(slotData)
     if slotData["MoveRandoVec"] then
         local setting = Tracker:FindObjectForCode("MovesRandomised")
         setting.Active = slotData["MoveRandoVec"] ~= 0
-        Tracker:FindObjectForCode("DoubleJump").Active = true --Double Jump is *always* available
-        Tracker:FindObjectForCode("TripleJump").Active = !setting.Active
-        Tracker:FindObjectForCode("LongJump").Active = !setting.Active
-        Tracker:FindObjectForCode("BackFlip").Active = !setting.Active
-        Tracker:FindObjectForCode("SideFlip").Active = !setting.Active
-        Tracker:FindObjectForCode("WallKick").Active = !setting.Active
-        Tracker:FindObjectForCode("Dive").Active = !setting.Active
-        Tracker:FindObjectForCode("GroundPound").Active = !setting.Active
-        Tracker:FindObjectForCode("Kick").Active = !setting.Active
-        Tracker:FindObjectForCode("Climb").Active = !setting.Active
-        Tracker:FindObjectForCode("LedgeGrab").Active = !setting.Active
+        Tracker:FindObjectForCode("DoubleJump").Active = not setting.Active
+        Tracker:FindObjectForCode("TripleJump").Active = not setting.Active
+        Tracker:FindObjectForCode("LongJump").Active = not setting.Active
+        Tracker:FindObjectForCode("BackFlip").Active = not setting.Active
+        Tracker:FindObjectForCode("SideFlip").Active = not setting.Active
+        Tracker:FindObjectForCode("WallKick").Active = not setting.Active
+        Tracker:FindObjectForCode("Dive").Active = not setting.Active
+        Tracker:FindObjectForCode("GroundPound").Active = not setting.Active
+        Tracker:FindObjectForCode("Kick").Active = not setting.Active
+        Tracker:FindObjectForCode("Climb").Active = not setting.Active
+        Tracker:FindObjectForCode("LedgeGrab").Active = not setting.Active
     end
     if slotData["DeathLink"] then
         local setting = Tracker:FindObjectForCode("DeathLink")
