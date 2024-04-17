@@ -25,5 +25,5 @@ AccessRules = {
     ["VCutM"] = function() return HasItem("KeyBasement") and HasItem("MoatDrained") end,
 
     ["BitDW"] = function() return HasEnoughStars("StarDoor08") end,
-    ["BitFS"] = function() return HasItem("KeyBasement") and HasItem("SubDeparted") and HasEnoughStars("StarDoor30") end,
+    ["BitFS"] = function() return HasItem("KeyBasement") and HasItem("SubDeparted1") and HasEnoughStars("StarDoor30") end,
 }

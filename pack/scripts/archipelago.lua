@@ -145,8 +145,13 @@ function LocationChecked(id, name)
         location.AvailableChestCount = location.AvailableChestCount - 1
         if area == "Dire Dire Docks" and section == "Board Bowser's Sub" then
             --Despite being a hosted item, it's not updated automatically
-            local location = Tracker:FindObjectForCode("SubDeparted")
-            location.Active = true
+            local item = Tracker:FindObjectForCode("SubDeparted1")
+            item.Active = true
+        end
+        if area == "Bowser in the Fire Sea" and section == "Upstairs Key" then
+            --Despite being a hosted item, it's not updated automatically
+            local item = Tracker:FindObjectForCode("SubDeparted2")
+            item.Active = true
         end
     end
 end

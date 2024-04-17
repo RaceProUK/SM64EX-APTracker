@@ -19,7 +19,7 @@
             {
                 "name": "Board Bowser's Sub",
                 "item_count": 1,
-                "hosted_item": "SubDeparted"
+                "hosted_item": "SubDeparted1"
             },
             {
                 "name": "Chests in the Current",
@@ -27,7 +27,10 @@
             },
             {
                 "name": "Pole-Jumping for Red Coins",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "[SubDeparted1],[SubDeparted2]"
+                ]
             },
             {
                 "name": "Through the Jet Stream",
@@ -49,7 +52,10 @@
             },
             {
                 "name": "100 Coins",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "[SubDeparted1],[SubDeparted2]"
+                ]
             }
         ]
     }
