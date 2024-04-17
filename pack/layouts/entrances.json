@@ -2,6 +2,7 @@
     "Entrances": {
         "type": "array",
         "orientation": "vertical",
+        "margin": "0,0,0,32",
         "content": [
             {
                 "type": "array",
