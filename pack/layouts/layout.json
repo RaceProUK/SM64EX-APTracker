@@ -7,7 +7,7 @@
             "content": [
                 {
                     "type": "group",
-                    "header": "Moves",
+                    "header": "Moves (Tracking Only, No Logic)",
                     "dock": "bottom",
                     "content": {
                         "type": "layout",
