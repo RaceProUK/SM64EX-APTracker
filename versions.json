@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.5.0",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.0/sm64ex_rando_raceprouk.zip",
+            "sha256": "5d0e27bfd4a7e42d7e00a0d5e052bafe75504a2a904eb1f9956c4064a7c71daa",
+            "changelog": [
+                "Support for Move Randomiser added (items only, no logic)",
+                "Logic fix for DDD Red Coins and 100 Coins",
+                "Logic added for Toads"
+            ]
+        },
+        {
             "package_version": "0.4.0",
             "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.4.0/sm64ex_rando_raceprouk.zip",
             "sha256": "d8eb0231c7d0a985eeb0e8985edebb60d9013a2287eb21ed11f1607aff2320db",

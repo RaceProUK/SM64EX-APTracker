@@ -14,3 +14,4 @@ Designed to be used with [PopTracker](https://github.com/black-sliver/PopTracker
 
 - Draining the moat cannot be auto-tracked as the Archipelago server doesn't send a relevant notification
 - Defeating Bowser in the Sky cannot be auto-tracked as the Archipelago server doesn't send a relevant notification
+- Movement Randomiser logic not yet implemented (waiting for it to settle in Archipelago first)
