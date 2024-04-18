@@ -18,7 +18,10 @@
         "sections": [
             {
                 "name": "A Gift from Toad",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasEnoughStars|12"
+                ]
             },
             {
                 "name": "That Wascally Wabbit!",
@@ -59,7 +62,10 @@
         "sections": [
             {
                 "name": "A Gift from Toad",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasEnoughStars|25"
+                ]
             }
         ]
     },
@@ -82,7 +88,10 @@
         "sections": [
             {
                 "name": "A Gift from Toad",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "$HasEnoughStars|35"
+                ]
             }
         ]
     }
