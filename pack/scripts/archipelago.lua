@@ -10,7 +10,8 @@ function Reset(slotData)
     EntranceMapper:Reset()
     Tracker:FindObjectForCode("GrandStar").Active = false
     Tracker:FindObjectForCode("MoatDrained").Active = false
-    Tracker:FindObjectForCode("SubDeparted").Active = false
+    Tracker:FindObjectForCode("SubDeparted1").Active = false
+    Tracker:FindObjectForCode("SubDeparted2").Active = false
     Tracker:FindObjectForCode("Goal").CurrentStage = 0
     
     --Auto-tracked Items
