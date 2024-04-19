@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.5.1",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.1/sm64ex_rando_raceprouk.zip",
+            "sha256": "d2882b7e3004ec01116446147ef9698421ebce52356172cb788c1e041531979f",
+            "changelog": [
+                "Fixed script error"
+            ]
+        },
+        {
             "package_version": "0.5.0",
             "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.0/sm64ex_rando_raceprouk.zip",
             "sha256": "5d0e27bfd4a7e42d7e00a0d5e052bafe75504a2a904eb1f9956c4064a7c71daa",
