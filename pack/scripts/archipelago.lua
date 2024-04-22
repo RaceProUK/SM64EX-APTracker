@@ -12,6 +12,7 @@ function Reset(slotData)
     Tracker:FindObjectForCode("MoatDrained").Active = false
     Tracker:FindObjectForCode("SubDeparted1").Active = false
     Tracker:FindObjectForCode("SubDeparted2").Active = false
+    Tracker:FindObjectForCode("Star100").Active = true
     Tracker:FindObjectForCode("Goal").CurrentStage = 0
     
     --Auto-tracked Items

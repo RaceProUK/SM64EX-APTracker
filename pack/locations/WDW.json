@@ -51,6 +51,9 @@
                 "item_count": 1,
                 "access_rules": [
                     "[CannonWDW]"
+                ],
+                "visibility_rules": [
+                    "Star100"
                 ]
             },
             {

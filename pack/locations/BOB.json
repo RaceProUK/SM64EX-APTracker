@@ -55,6 +55,9 @@
                 "item_count": 1,
                 "access_rules": [
                     "[CannonBOB],[CapWing]"
+                ],
+                "visibility_rules": [
+                    "Star100"
                 ]
             },
             {

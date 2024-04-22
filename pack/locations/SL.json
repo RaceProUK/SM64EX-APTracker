@@ -48,6 +48,9 @@
                 "item_count": 1,
                 "access_rules": [
                     "CapVanish"
+                ],
+                "visibility_rules": [
+                    "Star100"
                 ]
             },
             {

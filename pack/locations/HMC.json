@@ -45,7 +45,10 @@
             },
             {
                 "name": "100 Coins",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "Star100"
+                ]
             },
             {
                 "name": "Above Pit",
