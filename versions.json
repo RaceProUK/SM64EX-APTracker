@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.5.2",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.2/sm64ex_rando_raceprouk.zip",
+            "sha256": "159ddcd48cb1ff5300d1a26f76d4a219b68e59b70ba970f9e290e23f02f5f2ef",
+            "changelog": [
+                "Setting added to manually turn off 100 Coin Stars"
+            ]
+        },
+        {
             "package_version": "0.5.1",
             "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.1/sm64ex_rando_raceprouk.zip",
             "sha256": "d2882b7e3004ec01116446147ef9698421ebce52356172cb788c1e041531979f",
