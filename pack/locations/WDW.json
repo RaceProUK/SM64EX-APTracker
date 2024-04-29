@@ -68,7 +68,7 @@
                 "chest_opened_img": "images/EmptyBox.png",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonWDW"
+                    "[CannonWDW]"
                 ]
             }
         ]
