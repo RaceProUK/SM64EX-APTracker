@@ -28,7 +28,8 @@
                 "name": "Shoot to the Island in the Sky",
                 "item_count": 1,
                 "access_rules": [
-                    "[CannonBOB]"
+                    "[CannonBOB]",
+                    "[CapWing]"
                 ]
             },
             {
@@ -43,7 +44,7 @@
                 "name": "Mario Wings to the Sky",
                 "item_count": 1,
                 "access_rules": [
-                    "CannonBOB,CapWing"
+                    "[CannonBOB],CapWing"
                 ]
             },
             {
