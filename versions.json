@@ -1,6 +1,22 @@
 {
     "versions": [
         {
+            "package_version": "0.5.4",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.4/sm64ex_rando_raceprouk.zip",
+            "sha256": "281fe02b2f178999ffb98ecd6f73ce94a720c40663fac4607163a904525cf0ad",
+            "changelog": [
+                "Fixed logic for Shoot to the Island in the Sky and Mario Wings to the Sky (BOB Cannon is optional)"
+            ]
+        },
+        {
+            "package_version": "0.5.3",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.3/sm64ex_rando_raceprouk.zip",
+            "sha256": "3f6d721f6fe34ee0d383df12b5094420fe054176429605759d5cc5fa058468f7",
+            "changelog": [
+                "Fixed logic for WDW 1-UP box"
+            ]
+        },
+        {
             "package_version": "0.5.2",
             "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.2/sm64ex_rando_raceprouk.zip",
             "sha256": "159ddcd48cb1ff5300d1a26f76d4a219b68e59b70ba970f9e290e23f02f5f2ef",
