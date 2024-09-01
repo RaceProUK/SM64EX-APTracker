@@ -59,18 +59,20 @@ function Reset(slotData)
     end
     if slotData["MoveRandoVec"] then
         local setting = Tracker:FindObjectForCode("MovesRandomised")
-        setting.Active = slotData["MoveRandoVec"] ~= 0
-        Tracker:FindObjectForCode("DoubleJump").Active = not setting.Active
-        Tracker:FindObjectForCode("TripleJump").Active = not setting.Active
-        Tracker:FindObjectForCode("LongJump").Active = not setting.Active
-        Tracker:FindObjectForCode("BackFlip").Active = not setting.Active
-        Tracker:FindObjectForCode("SideFlip").Active = not setting.Active
-        Tracker:FindObjectForCode("WallKick").Active = not setting.Active
-        Tracker:FindObjectForCode("Dive").Active = not setting.Active
-        Tracker:FindObjectForCode("GroundPound").Active = not setting.Active
-        Tracker:FindObjectForCode("Kick").Active = not setting.Active
-        Tracker:FindObjectForCode("Climb").Active = not setting.Active
-        Tracker:FindObjectForCode("LedgeGrab").Active = not setting.Active
+        if setting then
+            setting.Active = slotData["MoveRandoVec"] ~= 0
+            Tracker:FindObjectForCode("DoubleJump").Active = not setting.Active
+            Tracker:FindObjectForCode("TripleJump").Active = not setting.Active
+            Tracker:FindObjectForCode("LongJump").Active = not setting.Active
+            Tracker:FindObjectForCode("BackFlip").Active = not setting.Active
+            Tracker:FindObjectForCode("SideFlip").Active = not setting.Active
+            Tracker:FindObjectForCode("WallKick").Active = not setting.Active
+            Tracker:FindObjectForCode("Dive").Active = not setting.Active
+            Tracker:FindObjectForCode("GroundPound").Active = not setting.Active
+            Tracker:FindObjectForCode("Kick").Active = not setting.Active
+            Tracker:FindObjectForCode("Climb").Active = not setting.Active
+            Tracker:FindObjectForCode("LedgeGrab").Active = not setting.Active
+        end
     end
     if slotData["DeathLink"] then
         local setting = Tracker:FindObjectForCode("DeathLink")
@@ -116,8 +118,10 @@ function ItemReceived(index, id, name, player)
         --SM64PC handles the progressive key this way too
         local basement = Tracker:FindObjectForCode("KeyBasement")
         local upper = Tracker:FindObjectForCode("KeyUpper")
-        upper.Active = basement.Active
-        basement.Active = true
+        if upper and basement then
+            upper.Active = basement.Active
+            basement.Active = true
+        end
     else
         local mapping = ItemMap[id]
         local itemCode = mapping[1]
