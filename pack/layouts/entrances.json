@@ -324,10 +324,22 @@
                         "item_height": 15
                     },
                     {
-                        "type": "item",
-                        "item": "LevelRR",
-                        "margin": "4,4,4,4",
-                        "item_height": 15
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "LevelRR",
+                                "margin": "4,4,4,4",
+                                "item_height": 15
+                            },
+                            {
+                                "type": "item",
+                                "item": "NULL",
+                                "margin": "4,4,4,4",
+                                "item_height": 15
+                            }
+                        ]
                     }
                 ]
             },
