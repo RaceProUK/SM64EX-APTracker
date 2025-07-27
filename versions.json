@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "0.5.5",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.5/sm64ex_rando_raceprouk.zip",
+            "sha256": "ff1b3a81b33060262507d848231e351f10fc829dcb07a31ad56b92dd6e0c752a",
+            "changelog": [
+                "Updated CotMC 1-Up logic",
+                "Fixed the layout in the Entrance Randomiser section"
+            ]
+        },
+        {
             "package_version": "0.5.4",
             "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.4/sm64ex_rando_raceprouk.zip",
             "sha256": "281fe02b2f178999ffb98ecd6f73ce94a720c40663fac4607163a904525cf0ad",
