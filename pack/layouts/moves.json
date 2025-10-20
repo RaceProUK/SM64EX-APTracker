@@ -19,5 +19,46 @@
                 "LedgeGrab"
             ]
         ]
+    },
+    "MovesVertical": {
+        "type": "itemgrid",
+        "h_alignment": "top",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+            [
+                "DoubleJump"
+            ],
+            [
+                "TripleJump"
+            ],
+            [
+                "LongJump"
+            ],
+            [
+                "BackFlip"
+            ],
+            [
+                "SideFlip"
+            ],
+            [
+                "WallKick"
+            ],
+            [
+                "Dive"
+            ],
+            [
+                "GroundPound"
+            ],
+            [
+                "Kick"
+            ],
+            [
+                "Climb"
+            ],
+            [
+                "LedgeGrab"
+            ]
+        ]
     }
 }
