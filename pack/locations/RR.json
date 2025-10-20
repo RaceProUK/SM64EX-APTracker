@@ -60,19 +60,28 @@
                 "name": "On House in the Sky",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Top of Red Coin Maze",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Under Fly Guy",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             }
         ]
     }

@@ -30,13 +30,19 @@
                 "name": "Near Goombas",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "On Tower",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             }
         ]
     },
@@ -72,13 +78,19 @@
                 "name": "Near Poles",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Swaying Stairs",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             }
         ]
     },
@@ -111,7 +123,10 @@
                 "name": "Above the Amp",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             }
         ]
     }

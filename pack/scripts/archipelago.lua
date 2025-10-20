@@ -13,6 +13,7 @@ function Reset(slotData)
     Tracker:FindObjectForCode("SubDeparted1").Active = false
     Tracker:FindObjectForCode("SubDeparted2").Active = false
     Tracker:FindObjectForCode("Star100").Active = true
+    Tracker:FindObjectForCode("1UpBoxes").Active = true
     Tracker:FindObjectForCode("Goal").CurrentStage = 0
 
     --Reset Moves

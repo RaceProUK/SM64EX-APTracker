@@ -63,19 +63,28 @@
                 "name": "Outside the Pyramid",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Back Wall in the Pyramid",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Left Path in the Pyramid",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             }
         ]
     }

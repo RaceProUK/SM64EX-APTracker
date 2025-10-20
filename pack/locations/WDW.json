@@ -69,6 +69,9 @@
                 "item_count": 1,
                 "access_rules": [
                     "[CannonWDW]"
+                ],
+                "visibility_rules": [
+                    "1UpBoxes"
                 ]
             }
         ]

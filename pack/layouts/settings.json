@@ -7,7 +7,8 @@
         "rows": [
             [
                 "Goal",
-                "EntrancesRandomised"
+                "EntrancesRandomised",
+                "1UpBoxes"
             ],
             [
                 "StarDoor08",
@@ -21,6 +22,7 @@
             ],
             [
                 "Star100",
+                "",
                 "DeathLink"
             ]
         ]

@@ -63,13 +63,19 @@
                 "name": "Near Moneybags",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Inside Igloo",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             }
         ]
     }

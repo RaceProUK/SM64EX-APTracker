@@ -60,19 +60,28 @@
                 "name": "Ice Pillar",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Near Snowman",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             },
             {
                 "name": "Secret Slide",
                 "chest_unopened_img": "images/1UpBox.png",
                 "chest_opened_img": "images/EmptyBox.png",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "1UpBoxes"
+                ]
             }
         ]
     }
