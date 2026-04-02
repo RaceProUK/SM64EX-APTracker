@@ -3,66 +3,77 @@
         "name": "Whomp's Fortress Painting",
         "type": "toggle",
         "img": "images/PaintingWF.png",
-        "codes": "PaintingWF"
+        "codes": "PaintingWF",
+        "initial_active_state": true
     },
     {
         "name": "Jolly Roger Bay Painting",
         "type": "toggle",
         "img": "images/PaintingJRB.png",
-        "codes": "PaintingJRB"
+        "codes": "PaintingJRB",
+        "initial_active_state": true
     },
     {
         "name": "Cool Cool Mountain Painting",
         "type": "toggle",
         "img": "images/PaintingCCM.png",
-        "codes": "PaintingCCM"
+        "codes": "PaintingCCM",
+        "initial_active_state": true
     },
     {
         "name": "Lethal Lava Land Painting",
         "type": "toggle",
         "img": "images/PaintingLLL.png",
-        "codes": "PaintingLLL"
+        "codes": "PaintingLLL",
+        "initial_active_state": true
     },
     {
         "name": "Shifting Sand Land Painting",
         "type": "toggle",
         "img": "images/PaintingSSL.png",
-        "codes": "PaintingSSL"
+        "codes": "PaintingSSL",
+        "initial_active_state": true
     },
     {
         "name": "Dire Dire Docks Painting",
         "type": "toggle",
         "img": "images/PaintingDDD.png",
-        "codes": "PaintingDDD"
+        "codes": "PaintingDDD",
+        "initial_active_state": true
     },
     {
         "name": "SNowman's Land Painting",
         "type": "toggle",
         "img": "images/PaintingSL.png",
-        "codes": "PaintingSL"
+        "codes": "PaintingSL",
+        "initial_active_state": true
     },
     {
         "name": "Wet Dry World Painting",
         "type": "toggle",
         "img": "images/PaintingWDW.png",
-        "codes": "PaintingWDW"
+        "codes": "PaintingWDW",
+        "initial_active_state": true
     },
     {
         "name": "Tall Tall Mountain Painting",
         "type": "toggle",
         "img": "images/PaintingTTM.png",
-        "codes": "PaintingTTM"
+        "codes": "PaintingTTM",
+        "initial_active_state": true
     },
     {
         "name": "Tiny Huge Island Painting",
         "type": "toggle",
         "img": "images/PaintingTHI.png",
-        "codes": "PaintingTHI"
+        "codes": "PaintingTHI",
+        "initial_active_state": true
     },
     {
         "name": "Rainbow Ride Painting",
         "type": "toggle",
         "img": "images/PaintingTTC.png",
-        "codes": "PaintingTTC"
+        "codes": "PaintingTTC",
+        "initial_active_state": true
     }
 ]
