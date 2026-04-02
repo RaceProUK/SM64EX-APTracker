@@ -4,46 +4,30 @@
         "background": "#212121",
         "content": [
             {
-                "type": "dock",
+                "type": "group",
+                "header": "Items",
                 "dock": "left",
-                "v_alignment": "stretch",
-                "margin": "0,0,0,0",
-                "content": [
-                    {
-                        "type": "group",
-                        "header": "Items",
-                        "dock": "top",
-                        "content": {
-                            "type": "layout",
-                            "key": "Items"
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Settings",
-                        "content": {
-                            "type": "layout",
-                            "key": "Settings"
-                        }
-                    }
-                ]
+                "content": {
+                    "type": "layout",
+                    "key": "items"
+                }
             },
             {
                 "type": "group",
                 "header": "Paintings",
-                "dock": "right",
+                "dock": "left",
                 "content": {
                     "type": "layout",
-                    "key": "PaintingsVertical"
+                    "key": "paintings"
                 }
             },
             {
                 "type": "group",
                 "header": "Moves",
-                "dock": "right",
+                "dock": "left",
                 "content": {
                     "type": "layout",
-                    "key": "MovesVertical"
+                    "key": "moves"
                 }
             }
         ]

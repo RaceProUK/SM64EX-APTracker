@@ -1,5 +1,5 @@
 {
-    "Entrances": {
+    "entrances": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0,0,32",

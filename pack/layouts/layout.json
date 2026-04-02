@@ -1,79 +1,55 @@
 {
     "item_tracker": {
-        "type": "container",
+        "type": "dock",
         "background": "#212121",
-        "content": {
-            "type": "dock",
-            "content": [
-                {
-                    "type": "group",
-                    "header": "Moves (Tracking Only, No Logic)",
-                    "dock": "bottom",
-                    "content": {
-                        "type": "layout",
-                        "key": "Moves"
-                    }
-                },
-                {
-                    "type": "group",
-                    "header": "Paintings",
-                    "dock": "bottom",
-                    "content": {
-                        "type": "layout",
-                        "key": "Paintings"
-                    }
-                },
-                {
-                    "type": "dock",
-                    "dock": "left",
-                    "v_alignment": "stretch",
-                    "margin": "0,0,0,0",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "Items"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Settings",
-                            "content": {
-                                "type": "layout",
-                                "key": "Settings"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "dock",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Courses and Areas",
-                            "margin": "0,0,0,0",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Courses"
-                                ]
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Entrances",
-                            "dock": "bottom",
-                            "content": {
-                                "type": "layout",
-                                "key": "Entrances"
-                            }
-                        }
+        "content": [
+            {
+                "type": "group",
+                "header": "Entrances",
+                "dock": "bottom",
+                "content": {
+                    "type": "layout",
+                    "key": "entrances"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Items",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "items"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Moves",
+                "dock": "right",
+                "content": {
+                    "type": "layout",
+                    "key": "moves"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Paintings",
+                "dock": "right",
+                "content": {
+                    "type": "layout",
+                    "key": "paintings"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Courses and Areas",
+                "margin": "0,0,0,0",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Courses"
                     ]
                 }
-            ]
-        }
+            }
+        ]
     }
 }
