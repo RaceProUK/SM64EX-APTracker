@@ -63,8 +63,10 @@ Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/tracker.json")
 
 ScriptHost:LoadScript("scripts/accessRules.lua")
+ScriptHost:LoadScript("scripts/paintingRules.lua")
 ScriptHost:LoadScript("scripts/entranceMapper.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/settings.lua")
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/archipelago.lua")
 end

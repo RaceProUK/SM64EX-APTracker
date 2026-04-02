@@ -1,33 +1,14 @@
 ScriptHost:LoadScript("scripts/archipelago/itemMap.lua")
 ScriptHost:LoadScript("scripts/archipelago/locationMap.lua")
+ScriptHost:LoadScript("scripts/settings.lua")
 
 CurrentIndex = -1
 
 function Reset(slotData)
+    Tracker.BulkUpdate = true
     CurrentIndex = -1
 
-    --Manually Tracked Items
-    EntranceMapper:Reset()
-    Tracker:FindObjectForCode("GrandStar").Active = false
-    Tracker:FindObjectForCode("MoatDrained").Active = false
-    Tracker:FindObjectForCode("SubDeparted1").Active = false
-    Tracker:FindObjectForCode("SubDeparted2").Active = false
-    Tracker:FindObjectForCode("Star100").Active = true
-    Tracker:FindObjectForCode("1UpBoxes").Active = true
-    Tracker:FindObjectForCode("Goal").CurrentStage = 0
-
-    --Reset Moves
-    Tracker:FindObjectForCode("DoubleJump").Active = true
-    Tracker:FindObjectForCode("TripleJump").Active = true
-    Tracker:FindObjectForCode("LongJump").Active = true
-    Tracker:FindObjectForCode("BackFlip").Active = true
-    Tracker:FindObjectForCode("SideFlip").Active = true
-    Tracker:FindObjectForCode("WallKick").Active = true
-    Tracker:FindObjectForCode("Dive").Active = true
-    Tracker:FindObjectForCode("GroundPound").Active = true
-    Tracker:FindObjectForCode("Kick").Active = true
-    Tracker:FindObjectForCode("Climb").Active = true
-    Tracker:FindObjectForCode("LedgeGrab").Active = true
+    ResetSettings()
 
     --Auto-tracked Items
     for _, value in pairs(ItemMap) do
@@ -59,63 +40,9 @@ function Reset(slotData)
     end
 
     --Settings
-    if slotData == nil then
-        return
-    end
-    if slotData["CompletionType"] then
-        local setting = Tracker:FindObjectForCode("Goal")
-        setting.CurrentStage = slotData["CompletionType"]
-    end
-    if slotData["AreaRando"] then
-        EntranceMapper:Fill(slotData["AreaRando"])
-        local setting = Tracker:FindObjectForCode("EntrancesRandomised")
-        setting.Active = slotData["AreaRando"] ~= 0
-    end
-    if slotData["MoveRandoVec"] then
-        Tracker:FindObjectForCode("DoubleJump").Active = true --This move is not randomised
-        Tracker:FindObjectForCode("TripleJump").Active = slotData["MoveRandoVec"] & 2 ~= 2
-        Tracker:FindObjectForCode("LongJump").Active = slotData["MoveRandoVec"] & 4 ~= 2
-        Tracker:FindObjectForCode("BackFlip").Active = slotData["MoveRandoVec"] & 8 ~= 2
-        Tracker:FindObjectForCode("SideFlip").Active = slotData["MoveRandoVec"] & 16 ~= 2
-        Tracker:FindObjectForCode("WallKick").Active = slotData["MoveRandoVec"] & 32 ~= 2
-        Tracker:FindObjectForCode("Dive").Active = slotData["MoveRandoVec"] & 64 ~= 2
-        Tracker:FindObjectForCode("GroundPound").Active = slotData["MoveRandoVec"] & 128 ~= 2
-        Tracker:FindObjectForCode("Kick").Active = slotData["MoveRandoVec"] & 256 ~= 2
-        Tracker:FindObjectForCode("Climb").Active = slotData["MoveRandoVec"] & 512 ~= 2
-        Tracker:FindObjectForCode("LedgeGrab").Active = slotData["MoveRandoVec"] & 1024 ~= 2
-    end
-    if slotData["PaintingRando"] then
-        local setting = Tracker:FindObjectForCode("PaintingsRandomised")
-        setting.Active = slotData["PaintingRando"] ~= 0
-    end
-    if slotData["DeathLink"] then
-        local setting = Tracker:FindObjectForCode("DeathLink")
-        setting.Active = slotData["DeathLink"] ~= 0
-    end
-    if slotData["FirstBowserDoorCost"] then
-        local setting = Tracker:FindObjectForCode("StarDoor08")
-        setting.AcquiredCount = slotData["FirstBowserDoorCost"]
-    end
-    if slotData["BasementDoorCost"] then
-        local setting = Tracker:FindObjectForCode("StarDoor30")
-        setting.AcquiredCount = slotData["BasementDoorCost"]
-    end
-    if slotData["SecondFloorDoorCost"] then
-        local setting = Tracker:FindObjectForCode("StarDoor50")
-        setting.AcquiredCount = slotData["SecondFloorDoorCost"]
-    end
-    if slotData["StarsToFinish"] then
-        local setting = Tracker:FindObjectForCode("StarDoor70")
-        setting.AcquiredCount = slotData["StarsToFinish"]
-    end
-    if slotData["MIPS1Cost"] then
-        local setting = Tracker:FindObjectForCode("MIPS1")
-        setting.AcquiredCount = slotData["MIPS1Cost"]
-    end
-    if slotData["MIPS2Cost"] then
-        local setting = Tracker:FindObjectForCode("MIPS2")
-        setting.AcquiredCount = slotData["MIPS2Cost"]
-    end
+    ParseSettings(slotData)
+
+    Tracker.BulkUpdate = false
 end
 
 function ItemReceived(index, id, name, player)

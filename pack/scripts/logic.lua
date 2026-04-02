@@ -6,10 +6,10 @@ function CanAccess(target)
         if redirected == nil then
             return false
         else
-            return AccessRules[redirected]()
+            return PaintingRules[redirected]() and AccessRules[redirected]()
         end
     else
-        return AccessRules[target]()
+        return PaintingRules[target]() and AccessRules[target]()
     end
 end
 
@@ -24,5 +24,5 @@ function HasItem(item)
 end
 
 function HasPainting(item)
-    return HasItem(item) or not Tracker:FindObjectForCode("PaintingsRandomised").Active
+    return HasItem("Painting" .. item) or not Tracker:FindObjectForCode("PaintingsRandomised").Active
 end
