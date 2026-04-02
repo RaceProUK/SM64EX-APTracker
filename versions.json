@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.6.0",
+            "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.6.0/sm64ex_rando_raceprouk.zip",
+            "sha256": "f2d43967bc70860cecc3756fde9e197267043da61d10c51dda074bf41bbbaef5",
+            "changelog": [
+                "Added items and logic for Randomised Paintings",
+                "Overhauled layout - Settings are now in their own popup",
+                "Move Randomisation logic yet to be implemented"
+            ]
+        },
+        {
             "package_version": "0.5.5",
             "download_url": "https://github.com/RaceProUK/SM64EX-APTracker/releases/download/v0.5.5/sm64ex_rando_raceprouk.zip",
             "sha256": "ff1b3a81b33060262507d848231e351f10fc829dcb07a31ad56b92dd6e0c752a",
