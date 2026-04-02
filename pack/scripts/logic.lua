@@ -22,3 +22,7 @@ end
 function HasItem(item)
     return Tracker:FindObjectForCode(item).Active
 end
+
+function HasPainting(item)
+    return HasItem(item) or not Tracker:FindObjectForCode("PaintingsRandomised").Active
+end

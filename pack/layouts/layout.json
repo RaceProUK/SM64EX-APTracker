@@ -15,6 +15,15 @@
                     }
                 },
                 {
+                    "type": "group",
+                    "header": "Paintings",
+                    "dock": "bottom",
+                    "content": {
+                        "type": "layout",
+                        "key": "Paintings"
+                    }
+                },
+                {
                     "type": "dock",
                     "dock": "left",
                     "v_alignment": "stretch",

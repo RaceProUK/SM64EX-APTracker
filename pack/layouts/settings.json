@@ -8,7 +8,7 @@
             [
                 "Goal",
                 "EntrancesRandomised",
-                "1UpBoxes"
+                "PaintingsRandomised"
             ],
             [
                 "StarDoor08",
@@ -22,7 +22,7 @@
             ],
             [
                 "Star100",
-                "",
+                "1UpBoxes",
                 "DeathLink"
             ]
         ]

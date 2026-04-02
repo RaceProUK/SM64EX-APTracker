@@ -29,7 +29,19 @@ ItemMap = {
     [3626210] = { "CannonWDW", "toggle" },
     [3626211] = { "CannonTTM", "toggle" },
     [3626212] = { "CannonTHI", "toggle" },
-    [3626214] = { "CannonRR", "toggle" }
+    [3626214] = { "CannonRR", "toggle" },
+    
+    [3626231] = { "PaintingWF", "toggle" },
+    [3626232] = { "PaintingJRB", "toggle" },
+    [3626233] = { "PaintingCCM", "toggle" },
+    [3626236] = { "PaintingLLL", "toggle" },
+    [3626237] = { "PaintingSSL", "toggle" },
+    [3626238] = { "PaintingDDD", "toggle" },
+    [3626239] = { "PaintingSL", "toggle" },
+    [3626240] = { "PaintingWDW", "toggle" },
+    [3626241] = { "PaintingTTM", "toggle" },
+    [3626242] = { "PaintingTHI", "toggle" },
+    [3626243] = { "PaintingTTC", "toggle" }
 }
 
 KeyProgressive = 3626180

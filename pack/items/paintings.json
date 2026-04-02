@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Whomp's Fortress Painting",
+        "type": "toggle",
+        "img": "images/PaintingWF.png",
+        "codes": "PaintingWF"
+    },
+    {
+        "name": "Jolly Roger Bay Painting",
+        "type": "toggle",
+        "img": "images/PaintingJRB.png",
+        "codes": "PaintingJRB"
+    },
+    {
+        "name": "Cool Cool Mountain Painting",
+        "type": "toggle",
+        "img": "images/PaintingCCM.png",
+        "codes": "PaintingCCM"
+    },
+    {
+        "name": "Lethal Lava Land Painting",
+        "type": "toggle",
+        "img": "images/PaintingLLL.png",
+        "codes": "PaintingLLL"
+    },
+    {
+        "name": "Shifting Sand Land Painting",
+        "type": "toggle",
+        "img": "images/PaintingSSL.png",
+        "codes": "PaintingSSL"
+    },
+    {
+        "name": "Dire Dire Docks Painting",
+        "type": "toggle",
+        "img": "images/PaintingDDD.png",
+        "codes": "PaintingDDD"
+    },
+    {
+        "name": "SNowman's Land Painting",
+        "type": "toggle",
+        "img": "images/PaintingSL.png",
+        "codes": "PaintingSL"
+    },
+    {
+        "name": "Wet Dry World Painting",
+        "type": "toggle",
+        "img": "images/PaintingWDW.png",
+        "codes": "PaintingWDW"
+    },
+    {
+        "name": "Tall Tall Mountain Painting",
+        "type": "toggle",
+        "img": "images/PaintingTTM.png",
+        "codes": "PaintingTTM"
+    },
+    {
+        "name": "Tiny Huge Island Painting",
+        "type": "toggle",
+        "img": "images/PaintingTHI.png",
+        "codes": "PaintingTHI"
+    },
+    {
+        "name": "Rainbow Ride Painting",
+        "type": "toggle",
+        "img": "images/PaintingTTC.png",
+        "codes": "PaintingTTC"
+    }
+]

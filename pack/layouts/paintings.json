@@ -1,0 +1,64 @@
+{
+    "Paintings": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+            [
+                "PaintingWF",
+                "PaintingJRB",
+                "PaintingCCM",
+                "PaintingLLL",
+                "PaintingSSL",
+                "PaintingDDD",
+                "PaintingSL",
+                "PaintingWDW",
+                "PaintingTTM",
+                "PaintingTHI",
+                "PaintingTTC"
+            ]
+        ]
+    },
+    "PaintingsVertical": {
+        "type": "itemgrid",
+        "h_alignment": "top",
+        "item_margin": "4,4",
+        "item_size": 64,
+        "rows": [
+            [
+                "PaintingWF"
+            ],
+            [
+                "PaintingJRB"
+            ],
+            [
+                "PaintingCCM"
+            ],
+            [
+                "PaintingLLL"
+            ],
+            [
+                "PaintingSSL"
+            ],
+            [
+                "PaintingDDD"
+            ],
+            [
+                "PaintingSL"
+            ],
+            [
+                "PaintingWDW"
+            ],
+            [
+                "PaintingTTM"
+            ],
+            [
+                "PaintingTHI"
+            ],
+            [
+                "PaintingTTC"
+            ]
+        ]
+    }
+}

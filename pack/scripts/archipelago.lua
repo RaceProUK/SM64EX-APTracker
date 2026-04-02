@@ -84,6 +84,10 @@ function Reset(slotData)
         Tracker:FindObjectForCode("Climb").Active = slotData["MoveRandoVec"] & 512 ~= 2
         Tracker:FindObjectForCode("LedgeGrab").Active = slotData["MoveRandoVec"] & 1024 ~= 2
     end
+    if slotData["PaintingRando"] then
+        local setting = Tracker:FindObjectForCode("PaintingsRandomised")
+        setting.Active = slotData["PaintingRando"] ~= 0
+    end
     if slotData["DeathLink"] then
         local setting = Tracker:FindObjectForCode("DeathLink")
         setting.Active = slotData["DeathLink"] ~= 0

@@ -30,6 +30,15 @@
             },
             {
                 "type": "group",
+                "header": "Paintings",
+                "dock": "right",
+                "content": {
+                    "type": "layout",
+                    "key": "PaintingsVertical"
+                }
+            },
+            {
+                "type": "group",
                 "header": "Moves",
                 "dock": "right",
                 "content": {
